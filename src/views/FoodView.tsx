@@ -1,11 +1,13 @@
-import React from "react";
+import "../components/food/FoodTracker";
+import "../components/food/RecipeGenerator";
+import "../assets/css/Food.css";
 
 const FoodView = () => {
-    return (
-        <>
-        <h1>Hello FoodView</h1>
-        </>
-    )
-}
+  return (
+    <div className="food-view">
+      <h1>Hello FoodView</h1>
+    </div>
+  );
+};
 
 export default FoodView;

@@ -1,11 +1,13 @@
-import React from "react";
+import "../components/water/WaterCalculator";
+import "../components/water/WaterTracker";
+import "../assets/css/Water.css";
 
 const WaterView = () => {
-    return (
-        <>
-        <h1>Hello WaterView</h1>
-        </>
-    )
-}
+  return (
+    <div className="water-view">
+      <h1>Hello WaterView</h1>
+    </div>
+  );
+};
 
 export default WaterView;

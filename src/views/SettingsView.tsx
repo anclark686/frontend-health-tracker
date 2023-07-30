@@ -1,11 +1,11 @@
-import React from "react";
+import "../assets/css/Settings.css";
 
 const SettingsView = () => {
-    return (
-        <>
-        <h1>Hello Settings</h1>
-        </>
-    )
-}
+  return (
+    <div className="exercise-view">
+      <h1>Hello Settings</h1>
+    </div>
+  );
+};
 
 export default SettingsView;

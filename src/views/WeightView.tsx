@@ -1,11 +1,13 @@
-import React from "react";
+import "../components/weight/BMICalculator";
+import "../components/weight/WeightTracker";
+import "../assets/css/Weight.css";
 
 const WeightView = () => {
-    return (
-        <>
-        <h1>Hello WeightView</h1>
-        </>
-    )
-}
+  return (
+    <div className="weight-view">
+      <h1>Hello WeightView</h1>
+    </div>
+  );
+};
 
 export default WeightView;

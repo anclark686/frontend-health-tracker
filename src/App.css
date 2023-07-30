@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-dark {
+  background-color: rgb(23, 24, 25);
+  color: white;
+  --white-black: rgb(9, 9, 9);
+  --black-white: white;
+  --text-color: white;
+  --sidebar-color: #2584a4;
+}
+
+.app-light {
+  background-color: white;
+  color: black;
+  --white-black: white;
+  --text-color: black;
+  --black-white: black;
+  --sidebar-color: white;
+}
+
+.error-message {
+  text-align: center;
+  margin: 100px;
+}

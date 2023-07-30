@@ -1,11 +1,11 @@
-import React from "react";
+import "../assets/css/Index.css";
 
 const Root = () => {
-    return (
-        <>
-        <h1>Hello Route</h1>
-        </>
-    )
-}
+  return (
+    <div className="root">
+      <h1>Hello</h1>
+    </div>
+  );
+};
 
 export default Root;

@@ -1,0 +1,76 @@
+.btn-container {
+  margin: 0 5px;
+}
+
+.dark-light-btn {
+  height: 50px;
+  width: 50px;
+  margin: 0 5px;
+  color: white;
+  padding: 0px;
+}
+
+.dark-light-img {
+  height: 35px;
+  width: 35px;
+  color: white;
+}
+
+.offcanvas {
+  --bs-offcanvas-width: 300px;
+  --bs-offcanvas-bg: #2B2F35; 
+}
+
+.offcanvas-title {
+  color: white;
+}
+
+.offcanvas-body {
+  padding: 0;
+}
+
+.menu-item {
+  font-size: 1.5rem;
+  padding: 15px;
+  border-top: 1px solid rgb(208, 242, 253);
+}
+
+.menu-item:hover {
+  background-color: rgb(38, 87, 104);
+}
+
+.menu-item {
+  text-decoration: none;
+  color: #52c9f0;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  padding-top: 10px;
+  text-align: center;
+  background-color: #2B2F35;
+  color: white;
+  margin-top: auto;
+}
+
+.footer-links {
+  width: 10%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-image {
+  width: 25px;
+  height: 25px;
+  overflow: visible;
+}
+
+.footer-link {
+  font-size: larger;
+  color: white;
+}
