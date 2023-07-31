@@ -33,7 +33,7 @@ const HeaderBar = ({ onMenuClick }: { onMenuClick: (bool: boolean) => void}) => 
               <Button className="dark-light-btn btn btn-dark" onClick={() => handleDarkMode(true)}>
                 <img src={moon} alt="sun" className="dark-light-img" />
               </Button>
-              <Button className="btn btn-info" onClick={() => onMenuClick(true)}>Menu</Button>
+              <Button className="btn btn-info btn-lg" onClick={() => onMenuClick(true)}>Menu</Button>
             </section>
           </Navbar.Collapse>
         </Container>
