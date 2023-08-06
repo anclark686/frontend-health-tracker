@@ -1,4 +1,4 @@
-const WeightTracker = () => {
+const WeightTracker: () => JSX.Element = () => {
   return (
     <>
       <h1>Hello WeightTracker</h1>

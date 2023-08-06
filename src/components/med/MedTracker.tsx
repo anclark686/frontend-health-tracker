@@ -1,4 +1,4 @@
-const MedTracker = () => {
+const MedTracker: () => JSX.Element = () => {
   return (
     <>
       <h1>Hello MedTracker</h1>

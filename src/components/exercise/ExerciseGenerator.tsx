@@ -1,4 +1,4 @@
-const ExerciseGenerator = () => {
+const ExerciseGenerator: () => JSX.Element = () => {
   return (
     <>
       <h1>Hello ExerciseGenerator</h1>
